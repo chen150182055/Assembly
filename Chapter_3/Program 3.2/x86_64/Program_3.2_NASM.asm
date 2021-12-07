@@ -2,7 +2,7 @@
 ; Working Example - NASM (64-bit)
 ; Copyright (c) 2019 Hall & Slonka
 
-SECTION .data                     ; Section for variable definitions
+SECTION .data                     ; 变量定义部分
 
 decimalLiteral:   DB 31           ; Variable storing 31
 hexLiteral:       DQ 0Fh          ; Variable storing F (15 in decimal)
